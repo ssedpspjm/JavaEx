@@ -3,18 +3,16 @@ public class $06Array {
         int[] scores = {95, 87, 89, 72, 33};
         int sum = 0;
 
-        for (int i = 0; i < scores.length; i++) {
+        for(int i=0;i<scores.length;i++)
             sum += scores[i];
-        }
-        System.out.println("총합 : " + sum);
 
-        // for-each 문
+        System.out.println("총합: " + sum);
 
+        //foreach문
         sum = 0;
-
-        for (int score : scores) {
+        for(int score : scores)
             sum += score;
-        }
-        System.out.println("총합 : " + sum);
+
+        System.out.println("총합: " + sum);
     }
 }
